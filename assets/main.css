@@ -1,0 +1,45 @@
+#encabezado{
+    background-color: aquamarine;
+    color:palevioletred;
+}
+
+#navegador{
+    padding: 2rem;
+    background-color: pink;
+    color: aqua;
+}
+
+form{
+    padding: 2rem;
+    background-color: palevioletred;
+}
+
+fieldset{
+    border: 1rem dotted aquamarine;
+    margin: 1rem;
+}
+
+.presentacion{
+    background-color: aquamarine;
+    color: palevioletred;
+}
+
+ul{
+    background-color: pink;
+    color: aqua;
+}
+
+ol{
+    background-color: aquamarine;
+    color: palevioletred;
+}
+
+.pink{
+    background-color: pink;
+    color: aqua;
+}
+
+#pie{
+    background-color: aquamarine;
+    color: palevioletred;
+}
