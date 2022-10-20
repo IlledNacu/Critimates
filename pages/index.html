@@ -16,7 +16,7 @@
             Interpretando ficción con mate y tostadas
         </h3>
         <br>
-        <img src="/ToFObL5.jpeg" alt="homero mirando las estrellas" width="100%">
+        <img src="../assets/ToFObL5.jpeg" alt="homero mirando las estrellas" width="100%">
         <!--no usar hr, luego se da estilo css-->
     </div>
 
@@ -24,11 +24,18 @@
         <!--NAVEGADOR-->
         <br>
 
-        <form><label for="nombre_apellido">Nombre:</label><input type="text"name="nombre_apellido" /><label for="pellido">Apellido:</label><input type="text"name="apellido" /><label for="edad">Edad:</label><input type="number"name="edad" /><label for="email">E-mail:</label><input type="email"name="email" /></form>
+        <form>
+            <fieldset>
 
-        <form><div>Hombre</div><input type="radio" name="genero" value="hombre" /><div>Mujer</div><input type="radio" name="genero" value="mujer" /><div>Otro</div><input type="radio" name="genero" value="otro" /></form>
-        <a href="">Ver términos y condiciones</a>
-        <form><div>Acepta términos y condiciones</div><input type="checkbox"name="acepta"value="1"/></form>
+            <legend>Registro</legend>
+            <label for="nombre_apellido">Nombre:</label><input type="text"name="nombre_apellido" /><label for="apellido">Apellido:</label><input type="text"name="apellido" /><label for="edad">Edad:</label><input type="number"name="edad" /><label for="email">E-mail:</label><input type="email"name="email" />
+            
+            <div>Hombre</div><input type="radio" name="genero" value="hombre" /><div>Mujer</div><input type="radio" name="genero" value="mujer" /><div>Otro</div><input type="radio" name="genero" value="otro" /></form>
+            <a href="">Ver términos y condiciones</a>
+            <form><div>Acepta términos y condiciones</div><input type="checkbox"name="acepta"value="1"/>
+        
+            </fieldset>
+        </form>
 
         <form><input type="submit" value="Enviar formulario" /><input type="reset" value="Limpiar formulario" /><input type="button" value="Sin acciones" /></form>
 
@@ -40,7 +47,7 @@
         <h2>Presentación</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse praesentium aut nam, a repudiandae cupiditate, excepturi amet nemo assumenda consequuntur saepe possimus odit ipsam aliquid quam facilis quos odio eaque.</p>
         <br>
-        <video src="/assets/Lobi14agosto2021.mp4" width="50%" controls></video>
+        <video src="../assets/Lobi14agosto2021.mp4" width="50%" controls></video>
         <br>
         <br>
         <h4>Localización</h4>
@@ -74,6 +81,7 @@
         <br>
         <a href="https://critimates.wordpress.com/">BLOG</a>
         <br>
+        <a href="./merch.html">Merchandising</a>
     </footer>
 </body>
 </html>
